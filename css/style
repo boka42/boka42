@@ -1,0 +1,23 @@
+body{
+background-image:url(../images/70408.jpg);
+}
+ 
+p{
+  font-family:verdana;
+  font-size:12px;
+  line-height:20px;
+  text-indent:25px;
+  color:#000000;
+ }
+ a:link{
+  color:#FF6347;
+   }
+a:visited{
+   color:#FFFAFA;
+   }
+a:hover{
+  color:#00FF00;
+  }
+ a:active{
+  color:#EE82EE;
+  }
