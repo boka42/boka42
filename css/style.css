@@ -1,11 +1,14 @@
-body{
-background-image:url(../images/70408.jpg);
+
+ body {
+    background-color: lightblue;
 }
- 
-p{
-  font-family:verdana;
-  font-size:12px;
-  line-height:20px;
-  text-indent:25px;
-  color:#000000;
- }
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
