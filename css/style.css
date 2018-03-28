@@ -12,3 +12,31 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
+span {color:red;}
+
+
+
+
+
+
+
+/*yjdfff*/
+*{
+
+	font-size: 25px;
+	font-family: tahoma;
+}
+
+div{
+	font-size: 40px;
+color: red;
+}
+
+p{color: blue }
+
+
+div p {color: green;}
+
+p::first-letter {color: red;}
+
+h1::first-letter {color: magenta;}
