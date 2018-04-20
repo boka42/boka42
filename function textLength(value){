@@ -1,9 +1,0 @@
-function textLength(value){
-   var maxLength = 144;
-   if(value.length > maxLength) return false;
-   return true;
-}
-
-document.getElementById('text').onkeyup = function(){
-     if(!textLength(this.value)) alert('text is too long!');
-}
