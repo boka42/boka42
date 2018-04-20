@@ -1,0 +1,18 @@
+function shuffle(p) {
+    var words = p.length, j, i;
+
+
+    while (words > 0) {
+
+        i  = Math.floor(Math.random() * words);
+
+        words--;
+
+        j = p[words];
+        p[words] = p[i];
+        p[i] = j;
+    }
+    return p;
+}
+var myList = [0, 1, 2, 3, 4, 5, 6];
+console.log(shuffle(myList));

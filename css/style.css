@@ -1,66 +1,50 @@
+/**
+ * shipshoot.css
+ */
 
- body {
-    background-color: lightblue;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-span {color:red;}
-
-
-
-
-
-
-
-/*css for 2*/
-*{
-
-	font-size: 25px;
-	font-family: tahoma;
-}
-
-div{
-	font-size: 40px;
-color: red;
-}
-
-p{color: blue }
-
-
-div p {color: green;}
-
-p::first-letter {color: red;}
-
-h1::first-letter {color: magenta;}
-
-
-
-
-
-#main {
-
-	width: 400px
+#Game {
+	margin: 0 auto;
+	width: 600px;
 	height: 300px;
-
-	border: 20px solid transparent;
-	padding: 5px;
-	
-
-	
+	border: 1px solid #000;
+	background-color: aqua;
 }
 
-div { color: green 
+#Board {
+	position: relative;
+	
+
 }
 
-img {
+#Ship {
+	width: 38px;
+	height: 38px;
+	border: 0px solid #000;
+	background-color: transparent; /*#8000ff;*/
+	position: absolute;
+	top: 260px;
+	left: 0px;
 
-	float: left
+}
+#chrom {
+  position: absolute;
+  top: 260px;
+  left: 0px;
+  width: 38px;
+  height: 38px;
+  background-color: #000000;
+  border: 1px solid #000;
+}
+
+.eship { 
+	width: 38px;
+	height: 38px;
+	border: 1px solid #000;
+	background-color: magenta;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 0px;
+	
 }

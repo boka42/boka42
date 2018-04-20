@@ -1,7 +1,7 @@
 <html>
 <script type="text/javascript">
-var cols = prompt("Введите количество строк", "");
-var rows = prompt("Введите количество столбцов", "");
+var cols = prompt("рядок", "");
+var rows = prompt("стовпчик", "");
 cols = parseInt(cols);
 rows = parseInt(rows);
 if (cols<1 || rows <1) {
@@ -40,3 +40,4 @@ for (i = 0; i <= cols; i++)
     }
 document.write("</table>");
 </script>
+</html>
