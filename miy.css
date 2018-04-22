@@ -13,7 +13,7 @@ body{
 
 }
 
-.v-header{
+header{
 	height:100vh;
 	display:flex;
 	align-items: center;
@@ -21,7 +21,7 @@ body{
 
 }
 
-.container{
+.container {
 	max-width: 960px;
     padding-left: 1rem;
     padding-right: 1rem;
