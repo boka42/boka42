@@ -1,0 +1,104 @@
+
+body{
+	background-image: url("weather.jpg");
+}
+
+header{
+	margin-top: 0px;
+	font-family: Cuprum, Arial, Helvetical,  sans-serif;
+	float: unset;
+}
+
+.menu *{
+	margin: 0;
+	padding: 0;
+   
+}
+
+.menu ul,
+.menu ol {
+	list-style: none;
+}
+
+.menu > ul {
+	display: flex;
+	justify-content: center;
+}
+
+.menu > ul li a{
+	display: block;
+	background: #660000
+rgb(102, 0, 0)
+hsl(0, 100%, 20%); 
+
+ 
+	padding: 15px 30px 15px 50px;
+	font-size: 18px;
+	color: #454547;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.menu > ul li{
+	position: relative;
+	border-right: 1px solid #c7c8ca;
+}
+
+.menu > ul li > a i.fa{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	font-size: 18px;
+}
+.menu > ul li:first-child{
+	border-left: 1px solid #b2b3b5;
+}
+.menu > ul li:last-child{
+	border-right: 1px solid #babbbb;
+}
+
+.menu li a:hover{
+	background: #454547;
+	color: #ffffff;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+/*підменю*/
+.menu li ul{
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+.menu li ul li{
+	border: 1px solid #c7c8ca;
+}
+.menu li ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #e4e4e5;
+
+}
+.menu li > ul li ul{
+	position: absolute;
+	right: -150px;
+	top: 0;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+
+.name {
+	margin-top: 200px;
+	margin-bottom: 0;
+	font-size:120px;
+	margin-bottom: 0;
+	text-align: center;
+	position: relative;
+	color: white;
+
+
+}
+
